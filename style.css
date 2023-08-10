@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /**** Font link poppins ****/
+  @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Festive&family=Fredoka+One&family=Kaushan+Script&family=Poppins:wght@400;500&family=Tangerine:wght@700&family=Ubuntu:wght@500&display=swap");
+  
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+ @media screen and (max-width:1024px) {
+     img{
+         height: auto;
+         width: 300px;
+         object-fit: contain;
+     }
+     p{
+         width: 100vw;
+     }
+ }
+  
+  @media screen and (max-width:1024px) 
+  {
+      .navbar-brand img{
+          height: 80px;
+          width: 200px;
+      }
+      
+  }
+  /*****************hero section starts********************/
+   
+  .hero-content h1{
+      color: #2f281e;
+      font-size: 46.5px;
+      font-family: sans-serif;
+      font-weight: 700;
+      padding-top: 80px;
+  }
+  .hero-content p{
+      color: #544837;
+      font-size: 21px;
+      font-weight: 400;
+      width: 480px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      
+  }
+  .btn-1{
+    color: #FFFEFE;
+    background-color: #f90;
+    border-color: #f90;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.988rem 2.563rem;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    padding-top: 10px;
+  }
+  .btn-1:hover{
+      background-color: #c58626;
+  }
+  .hero-img img{
+      padding-top: 70px;
+      width: 40vw;
+
+  }
+  .hero-content{
+      margin-top: 40px;
+  }
+  .hero-btn a{
+      color: #ff9900;
+      font-weight: 500;
+  }
+  .hero-btn img{
+      width: 20px
+  }
+  @media screen and (max-width:1024px) {
+    .hero-content h1{
+        color: #2f281e;
+        font-size: 46.5px;
+        font-family: sans-serif;
+        font-weight: 700;
+        padding-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-content p{
+        color: #544837;
+        font-size: 21px;
+        font-weight: 400;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        
+    }
+    .btn-1{
+        color: #FFFEFE;
+        background-color: #f90;
+        border-color: #f90;
+        display: inline-block;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        padding: 0.688rem 1.563rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+    .hero-img img{
+        padding-top: 40px;
+        width: 100%;
+        padding-bottom: 50px;
+  
+    }
+  }
+
+
+  /*****************hero section ends********************/
+
+   /*****************icon section starts********************/
+
+   .icon-title h1{
+       font-size: 45px;
+       color: #2f281e;
+       font-weight: 500;
+       padding-top: 140px;
+       text-align: center;
+   }
+   .icon-bg{
+       margin-top: 50px;
+       background-image: url('./assets/shape-1.png');
+       width: 100vw;
+       height: 70vh;
+       background-size: cover;
+       background-repeat: no-repeat;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+   }
+   .icon-content p{
+       font-size: 17px;
+       color: #544837;
+       font-weight: 500;
+       width: 230px;
+       padding-top: 10px;
+   }
+   .icon-content img{
+      margin-left: -20px;
+      max-width: 30%;
+      padding-bottom: 15px;
+   }
+   .signup-btn a{
+    color: #FFFEFE;
+    background-color: #f90;
+    border-color: #f90;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.688rem 1.563rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    margin-left: 450px;
+    padding-top: 10px;
+   
+   }
+  
+
+   @media screen and (max-width:1024px) {
+    .icon-title h1{
+        font-size: 50px;
+        color: #2f281e;
+        font-weight: 500;
+        padding-top: 10px;
+        text-align: center;
+        margin-bottom: 250px;
+        width: 100%;
+         
+    }
+    .icon-bg{
+        margin-top: 50px;
+        background-image: url('./assets/shape-1.png');
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-content p{
+        font-size: 18px;
+        color: #544837;
+        font-weight: 500;
+        width: 100%;
+        padding-top: 10px;
+    }  
+    .signup-btn a{
+        color: #FFFEFE;
+        background-color: #f90;
+        border-color: #f90;
+        display: inline-block;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        padding: 0.688rem 1.563rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        padding-top: 10px;
+        width: 100%;
+        margin-left: -10px;
+        margin-top: 25px;
+}
+
+    
+   
+}
+
+  /*****************icon section ends********************/
+   
+  /**************professionals section starts*************/
+     .professionals-content h5{
+       color: #544837;
+       font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+        font-size: 19px;
+        padding-top: 60px;
+}
+
+    .professionals-content h2{
+         font-size: 37px;
+         color: #2f281e;
+         line-height: 1.2;
+         font-weight: 700;
+     }
+     .professionals-content p{
+         color: #544837;
+         font-size: 17px;
+         margin-bottom: 1.8rem;
+         font-weight: 500;
+         width: 550px;
+     }
+     .professionals-content h4{
+        line-height: 1.2;
+        color: #2F281E;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        font-size: 20px;
+     }
+     .validation-img{
+         padding-top: 70px;
+     }
+
+     @media screen and (max-width:1024px) {
+         .professionals-content{
+             margin-top: 270px;
+        }
+        .professionals-content p{
+            color: #544837;
+            font-size: 17px;
+            margin-bottom: 1.8rem;
+            font-weight: 500;
+            width: 100%;
+        }
+     }
+  /*************professionals section ends****************/
+
+  /**************manager section starts**************/
+  .manager-content h5{
+     color: #544837;
+     font-weight: 500;
+     line-height: 1.2;
+     margin-bottom: 0.5rem;
+     font-size: 19px;
+     padding-top: 60px;
+  }
+  .manager-content h2{
+    font-size: 37px;
+    color: #2f281e;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .manager-content p{
+    color: #544837;
+    font-size: 17px;
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    width: 550px;
+  }
+  .manager-content h4{
+    line-height: 1.2;
+    color: #2F281E;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 20px;
+ }
+  .tick-content{
+    color: #544837;
+    font-size: 17px;
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    width: 550px;
+  }
+  .tick-img img{
+      width: 50px;
+  }
+  @media screen and (max-width:1024px) {
+    .manager-content p{
+        color: #544837;
+        font-size: 17px;
+        margin-bottom: 1.8rem;
+        font-weight: 500;
+        width: 100%;
+      }
+  }
+  /**************manager section ends**************/
+
+
+/*************marketers section starts**************/
+   .marketers-content h5{
+       color: #544837;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+        font-size: 19px;
+        padding-top: 60px;
+}
+     .marketers-content h2{
+       font-size: 37px;
+       color: #2f281e;
+       line-height: 1.2;
+       font-weight: 700;
+}
+     .marketers-content p{
+       color: #544837;
+       font-size: 17px;
+       margin-bottom: 1.8rem;
+       font-weight: 500;
+       width: 550px;
+}
+     .marketers-content h4{
+        line-height: 1.2;
+        color: #2F281E;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        font-size: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .marketers-content p{
+        color: #544837;
+        font-size: 17px;
+        margin-bottom: 1.8rem;
+        font-weight: 500;
+        width: 100%;
+      }
+}
+/*************marketers section ends**************/
+
+
+/***************superhero section starts**************/
+
+.superhero-bg{
+    background-image: url('./assets/oval.png');
+     width: 100hw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.superhero-content h1{
+    color: #2f281e;
+    font-size: 36.4912px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+    text-align: center;
+    padding-top: 80px;
+}
+.superhero-content p{
+      font-size: 17px;
+      color: #567592;
+      font-weight: 500;
+      margin-bottom: 2.5rem;
+      width: 530px;
+      text-align: center;
+}
+.contact-btn{
+        color: #FFFEFE;
+        background-color: #f90;
+        border-color: #f90;
+        display: inline-block;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        padding: 0.688rem 1.563rem;
+        font-size: 1.1rem;
+        border-radius: 0.25rem;
+        padding-top: 10px;
+        margin-left: 180px;
+       
+}   
+.contact-btn:hover{
+    background-color: #c58626;
+}
+.superhero-content{
+    padding-top: 80px;
+}
+
+@media screen and (max-width:1024px) {
+    
+    .superhero-bg{
+        background-image: url('./assets/oval.png');
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .superhero-content h1{
+        color: #2f281e;
+        font-size: 36.4912px;
+        line-height: 1.2;
+        font-weight: 700;
+        margin-bottom: 1.8rem;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .superhero-content p{
+        font-size: 17px;
+        color: #567592;
+        font-weight: 500;
+        margin-bottom: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-btn{
+        
+            color: #FFFEFE;
+            background-color: #f90;
+            border-color: #f90;
+            display: inline-block;
+            font-weight: 600;
+            line-height: 1.5;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 1px solid transparent;
+            padding: 0.688rem 1.563rem;
+            font-size: 1.1rem;
+            border-radius: 0.25rem;
+            padding-top: 10px;
+            margin-left: 100px;
+}
+}
+/****************superhero section ends******************/
+
+/****************strategies section starts******************/ 
+.text h1{
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 38px;
+    color: #2f281e;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.text p{
+    color: #544837;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.card{
+    
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.7rem;
+    text-decoration: none;
+    border: none;
+    padding-bottom: 120px;
+}
+.card-img-top {
+    border-top-left-radius: calc(0.7rem - 1px);
+    border-top-right-radius: calc(0.7rem - 1px);
+    width: 100%;
+}
+.card img{
+    vertical-align: middle;
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+
+}
+.card-body a{
+    color:#2F281E;
+}
+.card-body a:hover{
+    color: #ff9900;
+}
+@media screen and(max-width:1024px) {
+    .text h1{
+        padding-top: 80px;
+        font-weight: 700;
+        font-size: 38px;
+        color: #2f281e;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    
+    }
+    .text p{
+        color: #544837;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+}
+
+/****************strategies section ends******************/
+
+/**************footer section starts******************/
+.para{
+    font-size: 21px;
+    color: #2f281e;
+    font-weight: 450;
+    line-height: 1.5;
+}
+ul li a{
+    color:#544837;
+    font-size: 17px;
+    font-weight: 400;
+}
+.form-contro{
+    display: block;
+    width: 100%;
+    padding: 0.688rem 1.563rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2F281E;
+    background-color: #FFFEFE;
+    background-clip: padding-box;
+    border: 1px solid #E0E0E0;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+}
+
+.footer-btn{
+    color: #FFFEFE;
+    background-color: #f90;
+    border-color: #f90;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.688rem 1.563rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding-top: 10px;
+}
+.footer-btn:hover{
+    background-color:#c58626;
+}
+.heart-img img{
+    width: 20px;
+
+}
+/************** footer section ends ******************/
